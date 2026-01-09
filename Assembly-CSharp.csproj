@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Types/GameState.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Interfaces/IMap.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Implementations/Player.cs" />
@@ -90,18 +91,28 @@
     <Compile Include="Assets/WarStrategyEngine/Core/Implementations/Tile.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Types/BoardPosition.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Types/GameState.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Implementations/GameBoard.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Types/UnitStats.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Implementations/InventorySlot.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Systems/MatchEliminator.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Interfaces/IGameEngine.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Match3Engine/Examples/GemMonoBehaviourExample.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Implementations/Map.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Types/MatchResult.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Interfaces/IMatch3Engine.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Interfaces/IInventorySlot.cs" />
+    <Compile Include="Assets/Match3Engine/Examples/GemMonoBehaviour.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Interfaces/IGameBoard.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Systems/NoiseMapGenerator.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Interfaces/IPlayer.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Interfaces/IHotbarSlot.cs" />
+    <Compile Include="Assets/Match3Engine/Examples/Match3EngineExample.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Types/SwapResult.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Implementations/HotbarSlot.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Types/ItemStack.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
@@ -112,6 +123,7 @@
     <Compile Include="Assets/InventoryEngine/Core/Interfaces/IItem.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Implementations/Match3Engine.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Implementations/UnitRenderer.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Types/ItemRarity.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Implementations/Hotbar.cs" />
@@ -119,6 +131,7 @@
     <Compile Include="Assets/WarStrategyEngine/Core/Interfaces/ITile.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Implementations/Gem.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Implementations/InventoryItem.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Interfaces/IInventory.cs" />
     <Compile Include="Assets/WarStrategyEngine/Examples/GameEngineExample.cs" />
@@ -127,6 +140,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets/InventoryEngine/Core/Systems/ItemStackSystem.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Systems/FallSystem.cs" />
     <Compile Include="Assets/InventoryEngine/Examples/HotbarAndEquipmentExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Interfaces/IUnit.cs" />
@@ -142,7 +156,11 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Implementations/Unit.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Types/Position.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Systems/MatchDetector.cs" />
     <Compile Include="Assets/WarStrategyEngine/Core/Types/AttackResult.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Types/GemType.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Interfaces/IGem.cs" />
+    <Compile Include="Assets/Match3Engine/Core/Systems/SwapSystem.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>

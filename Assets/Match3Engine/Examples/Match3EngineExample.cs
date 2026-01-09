@@ -1,7 +1,7 @@
 using UnityEngine;
-using Match3Engine.Core.Implementations;
 using Match3Engine.Core.Interfaces;
 using Match3Engine.Core.Types;
+using Match3Engine.Core.Implementations;
 
 namespace Match3Engine.Examples
 {
@@ -17,7 +17,7 @@ namespace Match3Engine.Examples
         void Start()
         {
             // 初始化游戏引擎（8x8的游戏板）
-            _engine = new Match3Engine();
+            _engine = new Match3GameEngine();
             _engine.Initialize(8, 8);
             
             // 设置移动次数限制（可选）

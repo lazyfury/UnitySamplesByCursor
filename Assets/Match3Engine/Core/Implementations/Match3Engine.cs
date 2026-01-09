@@ -9,7 +9,7 @@ namespace Match3Engine.Core.Implementations
     /// <summary>
     /// 三消游戏引擎实现
     /// </summary>
-    public class Match3Engine : IMatch3Engine
+    public class Match3GameEngine : IMatch3Engine
     {
         private MatchDetector _matchDetector;
         private MatchEliminator _matchEliminator;
@@ -35,7 +35,7 @@ namespace Match3Engine.Core.Implementations
         public event Action<int> OnScoreChanged;
         public event Action OnGameOver;
         
-        public Match3Engine()
+        public Match3GameEngine()
         {
             _matchDetector = new MatchDetector();
             _matchEliminator = new MatchEliminator();
